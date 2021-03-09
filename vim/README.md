@@ -1,0 +1,3 @@
+# Vim
+
+- [Plugins](./PLUGINS.md)
