@@ -2,20 +2,28 @@
 
 
 ## Tabular
-| :Tab/<char> | auto-align paragraph with <char> (example here :Tab/| ) |
+| command     | description                                          |
+| ---         | ---                                                  |
+| :Tab/<char> | auto-align paragraph with <char> (example here :Tab/ | ) |
 
 ## GitGutter
-| <leader>hp | preview |
-| <leader>hs | stage   |
-| <leader>hu | undo    |
+| command    | description |
+| ---        | ---         |
+| <leader>hp | preview     |
+| <leader>hs | stage       |
+| <leader>hu | undo        |
 
 ## Fugitiv
+| command   | description                |
+| ---       | ---                        |
 | :G add .  | git add .                  |
 | :G diff   | git diff                   |
 | :G commit | git commit                 |
 | :Gread    | read index to working copy |
 
 ### :Gstatus
+| command            | description                    |
+| ---                | ---                            |
 | :Gstatus           | git status                     |
 | ctrl-n             | next file                      |
 | ctrl-p             | previouse file                 |
@@ -25,21 +33,31 @@
 | :Gdiff (in Review) | show difference                |
 
 ## nerdcommenter
+| command                 | description                  |
+| ---                     | ---                          |
 | [count]<leader>cc       | comment out                  |
 | [count]<leader>cu       | uncomment the selected lines |
 | [count]<leader>c<space> | toggle comment               |
 | [count]<leader>ci       | toggle each line individualy |
 
 ## nerdtree
-| <leader>n | toggle |
+| command   | description |
+| ---       | ---         |
+| <leader>n | toggle      |
 
 ## vim-surround
-| cs"' | change " to '      |
-| ds"  | delete delimiter " |
+| command | description        |
+| ---     | ---                |
+| cs"'    | change " to '      |
+| ds"     | delete delimiter " |
 
 ## undotree
-| <F5> | open undotree |
+| command | description   |
+| ---     | ---           |
+| <F5>    | open undotree |
 
 ## easymotion
+| command            | description                    |
+| ---                | ---                            |
 | <leader><leader>w  | trigger the word motion        |
 | <leader><leader>fa | all a characters are hilighted |
